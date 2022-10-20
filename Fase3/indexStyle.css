@@ -1,11 +1,21 @@
+html{
+    background-color: black;
+}
+html h1, h3, section, footer{
+    color: aliceblue;
+}
+html img{
+    display:block;
+    margin:auto;
+}
 .navStyle{
-    background-color: aquamarine;
+    background-color: yellowgreen;
     overflow: hidden;   
 }
 .navStyle a{
     float: left;
     display: block;
-    color: #00ffc8;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -13,5 +23,5 @@
 }
 .navStyle a:hover{
     background-color: azure;
-    color: black;
+    color: gray;
 }
