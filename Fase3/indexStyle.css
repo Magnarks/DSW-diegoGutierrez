@@ -25,3 +25,8 @@ html img{
     background-color: azure;
     color: gray;
 }
+.contenedor{
+    float: left;
+    width: 40px;       
+    margin: 0 auto;
+}
