@@ -8,6 +8,10 @@ html img{
     display:block;
     margin:auto;
 }
+html iframe{
+    display:block;
+    margin:auto;
+}
 .navStyle{
     background-color: yellowgreen;
     overflow: hidden;   
