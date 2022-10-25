@@ -1,7 +1,7 @@
 html{
     background-color: black;
 }
-html h1, h3, section, footer{
+html h1, h3, section, p, footer{
     color: aliceblue;
 }
 html img{
