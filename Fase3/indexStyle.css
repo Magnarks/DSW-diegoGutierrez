@@ -1,7 +1,7 @@
 html{
     background-color: black;
 }
-html h1, h3, section, p, footer{
+html h1, h3, h6, section, p, th, td, footer{
     color: aliceblue;
 }
 html img{
@@ -12,6 +12,17 @@ html iframe{
     display:block;
     margin:auto;
 }
+html th{
+    background-color: yellowgreen;
+    border-radius: 5%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+html td{
+    background-color: gray;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 .navStyle{
     background-color: yellowgreen;
     overflow: hidden;   
@@ -19,7 +30,7 @@ html iframe{
 .navStyle a{
     float: left;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -30,7 +41,19 @@ html iframe{
     color: gray;
 }
 .contenedor{
-    float: left;
-    width: 40px;       
+    float: left;      
     margin: 0 auto;
+}
+.tablaCSS{
+    width: 150px;       
+    margin: 0 auto;
+}
+.footerCSS{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: yellowgreen;
+    color: white;
+    text-align: center;
 }
