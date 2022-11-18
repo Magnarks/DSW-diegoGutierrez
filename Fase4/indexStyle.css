@@ -19,7 +19,6 @@ html th{
     padding-right: 25px;
 }
 html td{
-    background-color: gray;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -44,6 +43,49 @@ html td{
     float: left;      
     margin: 0 auto;
 }
+.section1{
+    border: 1px solid white;
+    margin: 30px auto;
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(179,255,0,1) 35%, rgba(0,212,255,1) 100%);
+}
+.section2{
+    border: 1px solid white;
+    margin: 30px auto;
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+    width: 250px;
+    height: 400px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(179,255,0,1) 35%, rgba(0,212,255,1) 100%);
+}
+.divJuego{
+    display: flex;
+    align-items: center;
+}
+.h1Juego{
+    text-align: center;
+}
+.buttonJuego{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+}
+.estadisticas{
+    height: 125px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+.tabla1{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(179,255,0,1) 35%, rgba(0,212,255,1) 100%);
+}
 .tablaCSS{
     width: 150px;       
     margin: 0 auto;
@@ -53,7 +95,8 @@ html td{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: yellowgreen;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(179,255,0,1) 35%, rgba(0,212,255,1) 100%);
     color: white;
     text-align: center;
 }
