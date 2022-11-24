@@ -15,7 +15,7 @@ let mostrarMovimientos = document.getElementById("movimientos");
 let mostrarAciertos = document.getElementById("aciertos");
 let mostrarTiempo = document.getElementById("tiempo");
 // numeros aleatorios
-let numeros = ["¿Que es HTML?","Es lenguaje de marcas de hipertexto y es el componente mas básico de los sitios web","¿Para que sirven las etiquetas?","Etiquetas sirven para mostrar contenido en el sitio y poscionarlo","¿Cuales son etiquetas HTML?","head, title, body, header, footer, canvas, article, p, div, section, form, img, video, nav","¿Partes de una etiqueta?","Etiqueta de apertura, Contenido, Etiqueta del cierre","¿Atributos de una etiqueta?","Nombre y Valor","¿Que son las clases?","Añaden mas información a estilos o librerias","¿Que significa HTML?","HyperText Markup Language","¿Que es css?","Una hoja de estilos para personalizar el sitio web"];
+let numeros = ["¿Que es la interacción-humano computador?","Estudia como la tecnologia evoluciona y hacerla mas comoda para el humano","¿Ramas de interacción-humano computador?","Seguridad, Usabilidad, Funcionalidad","¿La interacción-humano computador busca bajar el margen de error del PC?","Si, si lo busca","¿La interaccion-humano computador que busca aumentar y disminuir en los humanos?","Aumentar eficiencia y satisfacción, Disminuir estres y frustración","¿En que año surgio la interacción humano-computador?","1980","¿En que trabaja hoy en dia la interacción humano-computador?","Crear diseños centrados en el usuario","¿Que se espera a futuro con la interacción humano-computador?","Interfaces de usuario presentes en la vida cotidiana","¿Los SmarthPhone son interacción humano-computador?","Si, ya que cuentan con pantallas tactiles y reconocimiento facial y de voz"];
 numeros = numeros.sort(()=>{return Math.random() - 0.5});
 
 // funcione bloquear
@@ -67,7 +67,7 @@ function Mostrar(id){
         movimientos++;
         mostrarMovimientos.innerHTML = `Movimientos: ${movimientos}`;
 
-        if(primerResultado == "¿Que es HTML?" && segundoResultado == "Es lenguaje de marcas de hipertexto y es el componente mas básico de los sitios web"){
+        if(primerResultado == "¿Que es la interacción-humano computador?" && segundoResultado == "Estudia como la tecnologia evoluciona y hacerla mas comoda para el humano"){
             tarjetasDestapadas = 0;
             aciertos++;
             mostrarAciertos.innerHTML = `Aciertos: ${aciertos}`;
@@ -79,7 +79,7 @@ function Mostrar(id){
                 mostrarMovimientos.innerHTML = `Movimientos: ${movimientos} 👌`;
             }
 
-        }else if(primerResultado == "¿Para que sirven las etiquetas?" && segundoResultado == "Etiquetas sirven para mostrar contenido en el sitio y poscionarlo"){
+        }else if(primerResultado == "¿Ramas de interacción-humano computador?" && segundoResultado == "Seguridad, Usabilidad, Funcionalidad"){
             tarjetasDestapadas = 0;
             aciertos++;
             mostrarAciertos.innerHTML = `Aciertos: ${aciertos}`;
@@ -90,7 +90,7 @@ function Mostrar(id){
                 mostrarTiempo.innerHTML = `Fantastico 😎 tu tiempo es: ${timerInicial - timer} segundos`;
                 mostrarMovimientos.innerHTML = `Movimientos: ${movimientos} 👌`;
             }
-        }else if(primerResultado == "¿Cuales son etiquetas HTML?" && segundoResultado == "head, title, body, header, footer, canvas, article, p, div, section, form, img, video, nav"){
+        }else if(primerResultado == "¿La interacción-humano computador busca bajar el margen de error del PC?" && segundoResultado == "Si, si lo busca"){
             tarjetasDestapadas = 0;
             aciertos++;
             mostrarAciertos.innerHTML = `Aciertos: ${aciertos}`;
@@ -101,7 +101,7 @@ function Mostrar(id){
                 mostrarTiempo.innerHTML = `Fantastico 😎 tu tiempo es: ${timerInicial - timer} segundos`;
                 mostrarMovimientos.innerHTML = `Movimientos: ${movimientos} 👌`;
             }
-        }else if(primerResultado == "¿Partes de una etiqueta?" && segundoResultado == "Etiqueta de apertura, Contenido, Etiqueta del cierre"){
+        }else if(primerResultado == "¿La interaccion-humano computador que busca aumentar y disminuir en los humanos?" && segundoResultado == "Aumentar eficiencia y satisfacción, Disminuir estres y frustración"){
             tarjetasDestapadas = 0;
             aciertos++;
             mostrarAciertos.innerHTML = `Aciertos: ${aciertos}`;
@@ -112,7 +112,7 @@ function Mostrar(id){
                 mostrarTiempo.innerHTML = `Fantastico 😎 tu tiempo es: ${timerInicial - timer} segundos`;
                 mostrarMovimientos.innerHTML = `Movimientos: ${movimientos} 👌`;
             }
-        }else if(primerResultado == "¿Atributos de una etiqueta?" && segundoResultado == "Nombre y Valor"){
+        }else if(primerResultado == "¿En que año surgio la interacción humano-computador?" && segundoResultado == "1980"){
             tarjetasDestapadas = 0;
             aciertos++;
             mostrarAciertos.innerHTML = `Aciertos: ${aciertos}`;
@@ -123,7 +123,7 @@ function Mostrar(id){
                 mostrarTiempo.innerHTML = `Fantastico 😎 tu tiempo es: ${timerInicial - timer} segundos`;
                 mostrarMovimientos.innerHTML = `Movimientos: ${movimientos} 👌`;
             }
-        }else if(primerResultado == "¿Que son las clases?" && segundoResultado == "Añaden mas información a estilos o librerias"){
+        }else if(primerResultado == "¿En que trabaja hoy en dia la interacción humano-computador?" && segundoResultado == "Crear diseños centrados en el usuario"){
             tarjetasDestapadas = 0;
             aciertos++;
             mostrarAciertos.innerHTML = `Aciertos: ${aciertos}`;
@@ -134,7 +134,7 @@ function Mostrar(id){
                 mostrarTiempo.innerHTML = `Fantastico 😎 tu tiempo es: ${timerInicial - timer} segundos`;
                 mostrarMovimientos.innerHTML = `Movimientos: ${movimientos} 👌`;
             }
-        }else if(primerResultado == "¿Que significa HTML?" && segundoResultado == "HyperText Markup Language"){
+        }else if(primerResultado == "¿Que se espera a futuro con la interacción humano-computador?" && segundoResultado == "Interfaces de usuario presentes en la vida cotidiana"){
             tarjetasDestapadas = 0;
             aciertos++;
             mostrarAciertos.innerHTML = `Aciertos: ${aciertos}`;
@@ -146,7 +146,7 @@ function Mostrar(id){
                 mostrarMovimientos.innerHTML = `Movimientos: ${movimientos} 👌`;
             }
         }
-        else if(primerResultado == "¿Que es css?" && segundoResultado == "Una hoja de estilos para personalizar el sitio web"){
+        else if(primerResultado == "¿Los SmarthPhone son interacción humano-computador?" && segundoResultado == "Si, ya que cuentan con pantallas tactiles y reconocimiento facial y de voz"){
             tarjetasDestapadas = 0;
             aciertos++;
             mostrarAciertos.innerHTML = `Aciertos: ${aciertos}`;

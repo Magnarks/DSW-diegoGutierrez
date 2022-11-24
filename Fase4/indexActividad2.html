@@ -59,16 +59,50 @@
     <section>
         <h3>Ultimas noticias de la Unad</h3>
         <div class="contenedor" style="width: 175px;">
-            <a class="twitter-timeline" data-lang="es" data-height="450" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a class="twitter-timeline" data-lang="es" data-height="520" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     </section>
-    <div style="margin-left: 200px;">
-        <h3>Sitio en construcción</h3>
+    <div style="margin-left: 200px;" class="divJuego">
+        <section class="section1">
+            <h1 class="h1Juego">Juego de memoria</h1>
+            <table class="tabla1">
+                <tr>
+                    <td><button id="0" onclick="Mostrar(0)" class="buttonJuego"></button></td>
+                    <td><button id="1" onclick="Mostrar(1)" class="buttonJuego"></button></td>
+                    <td><button id="2" onclick="Mostrar(2)" class="buttonJuego"></button></td>
+                    <td><button id="3" onclick="Mostrar(3)" class="buttonJuego"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" onclick="Mostrar(4)" class="buttonJuego"></button></td>
+                    <td><button id="5" onclick="Mostrar(5)" class="buttonJuego"></button></td>
+                    <td><button id="6" onclick="Mostrar(6)" class="buttonJuego"></button></td>
+                    <td><button id="7" onclick="Mostrar(7)" class="buttonJuego"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="8" onclick="Mostrar(8)" class="buttonJuego"></button></td>
+                    <td><button id="9" onclick="Mostrar(9)" class="buttonJuego"></button></td>
+                    <td><button id="10" onclick="Mostrar(10)" class="buttonJuego"></button></td>
+                    <td><button id="11" onclick="Mostrar(11)" class="buttonJuego"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" onclick="Mostrar(12)" class="buttonJuego"></button></td>
+                    <td><button id="13" onclick="Mostrar(13)" class="buttonJuego"></button></td>
+                    <td><button id="14" onclick="Mostrar(14)" class="buttonJuego"></button></td>
+                    <td><button id="15" onclick="Mostrar(15)" class="buttonJuego"></button></td>
+                </tr>
+            </table>
+        </section>
+        <section class="section2">
+            <h2 id="aciertos" class="estadisticas">Aciertos : 0</h2>
+            <h2 id="tiempo" class="estadisticas">Tiempo: 60 segundos</h2>
+            <h2 id="movimientos" class="estadisticas">Movimientos: 0</h2>
+        </section>
         <footer class="footerCSS">
             Correo: <strong> dagutierrezto@unadvirtual.edu.com </strong>
             Skype: <strong> live:diegoassasin </strong>
             Fecha: <strong> 16/11/2022 </strong>
         </footer>
+        <script src="main2.js"></script>
     </div>
 </body>
 </html>
